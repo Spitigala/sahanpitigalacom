@@ -1,0 +1,209 @@
+body {
+	font-family: 'Nunito', sans-serif;
+	color: ##2c3e50;
+	background: #ecf0f1;
+}
+
+a {
+	color: #4FB69F;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 1.750em;
+	letter-spacing: -1.5px;
+}
+
+h2 {
+	font-size: 1.500ems;
+	color: #FFFFFF;
+}
+
+figcaption {
+	text-align: center;
+	margin: 10px -20px;
+}
+
+p {
+	width: 350px;
+}
+
+.caption {
+	width: 350px;
+	text-align: center;
+	margin-left: 10px;
+}
+
+.port_image{
+    width: 350px; /* you can use % */
+    height: 200px;
+}
+
+.btn {  /* Class Selector */
+	position: absolute;
+	color: #FFFFFF;
+	background: #3498db;
+	padding: 15px 30px;
+	margin: 40px 350px;
+	border-radius: 25px;
+	text-transform: uppercase;
+}
+
+.btn:hover {
+	background-color: #3498db;
+}
+
+ul.nav {
+	margin: 5px 0 0 0;
+	list-style: none;
+	float: right;
+}
+
+ul.nav li {
+	float: left;
+	margin-right: 40px;
+	margin-bottom: 40px;
+}
+
+ul.nav li a {
+	color: #3498db;
+	font-family: 'Varela Round', sans-serif;
+}
+
+#intro { /* ID Selector */
+	margin: 50px 0 75px 0;
+}
+
+#portfolio img {
+	border: 4px solid #3498db;
+	margin: 25px 5px;
+	display: inline;
+}
+
+
+.port {
+	margin-left: 510px;
+}
+
+#featured-cupcake img {
+	border: 8px double #3498db;
+	box-shadow: 2px 2px 7px 1px #888888;
+	border-radius: 25px;
+}
+
+#copyright {
+	border: 5px solid #d35400;
+	text-align: center;
+}
+
+.container2{
+	width: 830px; 
+	margin: auto;
+}
+
+.name {
+	text-align: center; 
+	font-family: 'Allura', cursive;
+	font-size: 100px;
+}
+
+#sp {
+	color: #2c3e50;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+
+.slide {
+	width: 800px;
+	height: 120px;
+	background-color: #d35400;
+	box-shadow: 2px 2px 7px 1px #888888;
+}
+
+.slide2 {
+	width: 800px;
+	height: 25px;
+	background-color: #bdc3c7;
+	
+}
+
+.slide3 {
+	width: 300px;
+	height: 150px;
+	background-color: #bdc3c7;
+}
+
+
+.slide1 {
+	width: 600px;
+	height: 250px;
+	background-color: #3498db;
+	box-shadow: 2px 2px 7px 1px #888888;
+	border-radius: 25px;
+	margin: 25px 0px 0px 395px;
+	color: #FFFFFF;
+	font-size: 50px;
+}
+
+#q1 {
+	padding-left: 70px;
+	padding-top: 60px;
+	font-size: 30px;
+	width: 750px;
+	height: auto;
+	font-family: 'Flamenco', cursive;
+}
+
+#q1_author {
+	font-size: 20px;
+	padding-left: 300px;
+	font-family: 'Flamenco', cursive;
+}
+
+.about_me {
+	margin-left: 105px;
+}
+
+
+.contact {
+	margin-left: 300px;
+}
+
+/********** Social Bar **********/
+
+#social {
+	position: fixed;
+	top: 280px;
+	right: 200px;
+	width: 40px;
+	z-index: 1;
+}
+
+	a.fbook, a.twitt, a.gplus, a.tumblr {
+		display: block;
+		width: 40px;
+		height: 40px;
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		background: url(../img/social-icons.png) no-repeat;
+	}
+
+	a.fbook { background-position: -40px 0; }
+	a.fbook:hover { background-position: -80px 0; }
+	
+
+	a.twitt { background-position: -40px -40px; }
+	a.twitt:hover { background-position: -80px -40px; }
+	
+	
+	a.gplus { background-position: -40px -80px; }
+	a.gplus:hover { background-position: -80px -80px; }
+
+
+	a.tumblr { background-position: -40px -120px; }
+	a.tumblr:hover { background-position: -80px -120px; }
+	
+
+

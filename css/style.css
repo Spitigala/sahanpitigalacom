@@ -1,0 +1,124 @@
+body {
+	font-family: 'Nunito', sans-serif;
+	color: ###2c3e50;
+	background: url(...img/black-wood.jpg);
+}
+
+a {
+	color: #4FB69F;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 1.750em;
+	letter-spacing: -1.5px;
+}
+
+h2 {
+	font-size: 1.500ems;
+	color: #FFFFFF;
+}
+
+.btn {  /* Class Selector */
+	position: absolute;
+	color: #FFFFFF;
+	background: #3498db;
+	padding: 15px 30px;
+	margin: 40px 350px;
+	border-radius: 25px;
+	text-transform: uppercase;
+}
+
+.btn:hover {
+	background-color: #3498db;
+}
+
+ul.nav {
+	margin: 5px 0 0 0;
+	list-style: none;
+	float: right;
+}
+
+ul.nav li {
+	float: left;
+	margin-right: 40px;
+	margin-bottom: 40px;
+}
+
+ul.nav li a {
+	color: #3498db;
+	font-family: 'Varela Round', sans-serif;
+}
+
+#intro { /* ID Selector */
+	margin: 50px 0 75px 0;
+}
+
+#new-cupcakes img {
+	border: 8px solid #FAF3BC;
+	margin:0 0 20px 0;
+}
+
+#featured-cupcake img {
+	border: 8px solid #3498db;
+}
+
+#copyright {
+	border: 5px solid #d35400;
+	text-align: center;
+}
+
+.container2{
+	width: 830px; 
+	margin: auto;
+}
+
+.name {
+	text-align: center; 
+	font-family: 'Allura', cursive;
+	font-size: 100px;
+	margin-top: 200px;
+}
+
+#sp {
+	color: #2c3e50;
+	margin-top: 250px;
+}
+
+/********** Social Bar **********/
+
+#social {
+	position: fixed;
+	top: 254px;
+	right: 200px;
+	width: 40px;
+	z-index: 1;
+}
+
+	a.fbook, a.twitt, a.gplus, a.tumblr {
+		display: block;
+		width: 40px;
+		height: 40px;
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		background: url(../img/social-icons.png) no-repeat;
+	}
+
+	a.fbook { background-position: 0 0; }
+	a.fbook:hover { background-position: -40px 0; }
+	a.fbook:active { background-position: -80px 0; }
+
+	a.twitt { background-position: 0 -40px; }
+	a.twitt:hover { background-position: -40px -40px; }
+	a.twitt:active { background-position: -80px -40px; }
+	
+	a.gplus { background-position: 0 -80px; }
+	a.gplus:hover { background-position: -40px -80px; }
+	a.gplus:active { background-position: -80px -80px; }
+
+	a.tumblr { background-position: 0 -120px; }
+	a.tumblr:hover { background-position: -40px -120px; }
+	a.tumblr:active { background-position: -80px -120px; }
+
+

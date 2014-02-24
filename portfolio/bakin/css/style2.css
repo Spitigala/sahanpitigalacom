@@ -1,0 +1,95 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #3498db;
+  background: #f2f5f5;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 1.750em;
+  letter-spacing: -1.5px;
+}
+
+h2 {
+  font-size: 1.500ems;
+  color: #3498db;
+}
+
+.btn {  /* Class Selector */
+  color: #FAF3BC;
+  background: #4FB69F url('img/texture,png') no-repeat right top;
+  padding: 15px 30px;
+  margin: 40px 0px;
+  border-radius: 25px;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #4CC4A7;
+}
+
+ul.nav {
+  list-style: none;
+  float: center;
+  margin-left: 450px;
+  padding: 15px 0;
+}
+
+ul.nav li {
+  float: left;
+  margin-right: 100px;
+  color: #1212fb;
+}
+
+ul.nav li a {
+  color: #4242f0;
+}
+
+#intro { /* ID Selector */
+  margin: 50px 0 75px 0;
+}
+
+
+#copyright {
+  border-top: 8px solid #2A0400;
+  padding: 10px 0px;
+  margin:15px 0px;
+  text-align: center;
+}
+
+.test {
+  margin-left: 200px;
+  font-size: 15px;
+}
+
+.header {
+ background-color: #FFFFFF;
+ border-bottom: 5px solid #000000;
+}
+
+.header:hover {
+    background-color: #4CC4A7;
+}
+
+.geico {
+  text-align: center;
+  margin-left: 200px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+
+iframe {
+	margin-left: 300px;
+}
+
+.maps {
+	margin-left: 150px;
+}
